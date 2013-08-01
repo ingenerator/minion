@@ -1,0 +1,36 @@
+{
+	"name":        "kohana/minion",
+	"type":        "kohana-module",
+	"description": "The official kohana module for running tasks via the CLI",
+	"homepage":    "http://kohanaframework.org",
+	"license":     "BSD-3-Clause",
+	"keywords":    ["kohana", "framework", "task"],
+	"authors": [
+		{
+			"name":     "Kohana Team",
+			"email":    "team@kohanaframework.org",
+			"homepage": "http://kohanaframework.org/team",
+			"role":     "developer"
+		}
+	],
+	"support": {
+		"issues":   "http://dev.kohanaframework.org",
+		"forum":    "http://forum.kohanaframework.org",
+		"irc":      "irc://irc.freenode.net/kohana",
+		"source":   "http://github.com/kohana/core"
+	},
+	"require": {
+		"composer/installers": "~1.0",
+		"kohana/core":         "*",
+		"php":                 ">=5.3.3"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "3.3/dev",
+			"3.0.x-dev":  "3.0/dev",
+			"3.1.x-dev":  "3.1/dev",
+			"3.2.x-dev":  "3.2/dev",
+			"3.3.x-dev":  "3.3/dev"
+		}
+	}
+}
